@@ -1,0 +1,16 @@
+@keyframes blinking
+{
+	from
+	{
+		color: red;
+	}
+	to
+	{
+		color: green;
+	}
+}
+
+.element
+{
+	animation: blinking 1s ease-in-out 0.5s alternate infinite;
+}
